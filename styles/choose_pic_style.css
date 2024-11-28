@@ -2,7 +2,7 @@
 
 
 
-.tier_s{
+.pictures{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -10,11 +10,16 @@
     padding: 10px;
 }
 
+.middle_part{
+    height: auto;
+}
 
 .tier_a{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    grid-gap: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 10px;
 }
 
 div{
@@ -26,6 +31,25 @@ div{
     display: block;
 }
 
+.ultra_kill{
+    display: block;
+}
+
+.valiant_hearts{
+    display: block;
+}
+
+.slay_the_spire{
+    display: block;
+}
+
+.gremlins_inc{
+    display: block;
+}
+
+.heart_stone{
+    display: block;
+}
 
 img{
     width: 17vw;
