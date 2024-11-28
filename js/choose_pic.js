@@ -37,6 +37,6 @@ hm2.addEventListener('mouseout', event=>{
 });
 
 hm2.addEventListener('click', event=>{
-    window.location.href = "sites/games/hm2.html";
+    window.location.href = "xxx.html";
 })
 
