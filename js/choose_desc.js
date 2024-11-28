@@ -18,3 +18,24 @@ upper_menu.addEventListener('click', (event)=>{
         window.location.href = "choose_pic.html";
     console.log(name);
 })
+
+window.onload = function(){
+    var all_text = document.body.querySelectorAll("#text");
+    var all_images = document.body.querySelectorAll(".img");
+    all_text.forEach(element => {
+        element.addEventListener('click', function(){
+            window.location.href = "sites/games/" + element.className + ".html";
+        })
+    });
+
+    all_images.forEach(element =>{
+        element.addEventListener('click', function(){
+            let path = element.src.split('/');
+            let path_length = path.length;
+            if (path[path_length-1].split('.')[1] != "gif")
+                element.src = "pictures/" + element.id + ".gif";
+            else
+                element.src = "pictures/" + element.id + ".png";
+        })
+    });
+}

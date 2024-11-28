@@ -5,7 +5,7 @@ document.getElementsByTagName('head')[0].appendChild(script);
 
 
 var hm2 = document.querySelector("#hm2");
-var ultrakill = document.querySelector("#ultra_kill");
+var ultrakill = document.querySelector("#ultrakill");
 var valiant_hearts = document.querySelector("#valiant_hearts");
 var slay_the_spire = document.querySelector("#slay_the_spire");
 var gremlins_inc = document.querySelector("#gremlins_inc");
@@ -43,7 +43,7 @@ ultrakill.addEventListener('mouseover', event=>{
 });
 
 ultrakill.addEventListener('mouseout', event=>{
-    event.target.src = "pictures/ultra_kill.jpg";
+    event.target.src = "pictures/ultrakill.png";
 });
 
 ultrakill.addEventListener('click', event=>{
@@ -69,7 +69,7 @@ gremlins_inc.addEventListener('mouseover', event=>{
 });
 
 gremlins_inc.addEventListener('mouseout', event=>{
-    event.target.src = "pictures/gremlins_inc.jpg";
+    event.target.src = "pictures/gremlins_inc.png";
 });
 
 gremlins_inc.addEventListener('click', event=>{
@@ -95,7 +95,7 @@ slay_the_spire.addEventListener('mouseover', event=>{
 });
 
 slay_the_spire.addEventListener('mouseout', event=>{
-    event.target.src = "pictures/slay_the_spire.jpg";
+    event.target.src = "pictures/slay_the_spire.png";
 });
 
 slay_the_spire.addEventListener('click', event=>{

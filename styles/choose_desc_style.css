@@ -2,9 +2,52 @@
 
 
 
-.hm2{
+#_hm2{
     display: flex;
     gap: 15px;
+    border-width: 3vw;
+    border-color: rgb(136, 21, 6);
+    border-style:double;
+}
+
+#_ultrakill{
+    display: flex;
+    gap: 15px;
+    border-width: 3vw;
+    border-color: rgb(136, 21, 6);
+    border-style:double;
+}
+
+#_slay_the_spire{
+    display: flex;
+    gap: 15px;
+    border-width: 3vw;
+    border-color: rgb(136, 21, 6);
+    border-style:double;
+}
+
+#_valiant_hearts{
+    display: flex;
+    gap: 15px;
+    border-width: 3vw;
+    border-color: rgb(136, 21, 6);
+    border-style:double;
+}
+
+#_gremlins_inc{
+    display: flex;
+    gap: 15px;
+    border-width: 3vw;
+    border-color: rgb(136, 21, 6);
+    border-style:double;
+}
+
+#_heart_stone{
+    display: flex;
+    gap: 15px;
+    border-width: 3vw;
+    border-color: rgb(136, 21, 6);
+    border-style:double;
 }
 img{
     position: sticky;
@@ -12,5 +55,18 @@ img{
     max-height: 20vw;
 }
 
-.image{
+img:hover{
+    cursor: pointer;
+}
+
+#text:hover{
+    cursor: pointer;
+}
+
+#text:active{
+    color:rgb(223, 30, 4);
+}
+
+.middle_part{
+    height: auto;
 }
