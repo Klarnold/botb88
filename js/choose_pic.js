@@ -4,6 +4,12 @@ script.src = 'https://code.jquery.com/jquery-3.7.1.min.js'; // Check https://jqu
 document.getElementsByTagName('head')[0].appendChild(script);
 
 
+var hm2 = document.querySelector("#hm2");
+var ultrakill = document.querySelector("#ultra_kill");
+var valiant_hearts = document.querySelector("#valiant_hearts");
+var slay_the_spire = document.querySelector("#slay_the_spire");
+var gremlins_inc = document.querySelector("#gremlins_inc");
+var heart_stone = document.querySelector("#heart_stone");
 var upper_menu = document.querySelector("#heading")
 
 upper_menu.addEventListener('click', (event)=>{
@@ -19,15 +25,6 @@ upper_menu.addEventListener('click', (event)=>{
     console.log(name);
 })
 
-window.onload = function(){
-    var hm2 = document.querySelector("#hm2");
-    var ultrakill = document.querySelector("#ultra_kill");
-    var valiant_hearts = document.querySelector("#valiant_hearts");
-    var slay_the_spire = document.querySelector("#slay_the_spire");
-    var germlins_inc = document.querySelector("#gremlins_inc");
-    var heart_stoen = document.querySelector("#heart_stone");
-}
-
 hm2.addEventListener('mouseover', event=>{
     event.target.src = "pictures/hm2.gif";
 });
@@ -40,3 +37,67 @@ hm2.addEventListener('click', event=>{
     window.location.href = "sites/games/hm2.html";
 })
 
+ultrakill.addEventListener('mouseover', event=>{
+
+    event.target.src = "pictures/ultrakill.gif";
+});
+
+ultrakill.addEventListener('mouseout', event=>{
+    event.target.src = "pictures/ultra_kill.jpg";
+});
+
+ultrakill.addEventListener('click', event=>{
+    window.location.href = "sites/games/ultrakill.html";
+})
+
+valiant_hearts.addEventListener('mouseover', event=>{
+
+    event.target.src = "pictures/valiant_hearts.gif";
+});
+
+valiant_hearts.addEventListener('mouseout', event=>{
+    event.target.src = "pictures/valiant_hearts.png";
+});
+
+valiant_hearts.addEventListener('click', event=>{
+    window.location.href = "sites/games/valiant_hearts.html";
+})
+
+gremlins_inc.addEventListener('mouseover', event=>{
+
+    event.target.src = "pictures/gremlins.png";
+});
+
+gremlins_inc.addEventListener('mouseout', event=>{
+    event.target.src = "pictures/gremlins_inc.jpg";
+});
+
+gremlins_inc.addEventListener('click', event=>{
+    window.location.href = "sites/games/gremlins_inc.html";
+})
+
+heart_stone.addEventListener('mouseover', event=>{
+
+    event.target.src = "pictures/heart_stone.gif";
+});
+
+heart_stone.addEventListener('mouseout', event=>{
+    event.target.src = "pictures/heart_stone.png";
+});
+
+heart_stone.addEventListener('click', event=>{
+    window.location.href = "sites/games/heart_stone.html";
+})
+
+slay_the_spire.addEventListener('mouseover', event=>{
+
+    event.target.src = "pictures/slay_the_spire.gif";
+});
+
+slay_the_spire.addEventListener('mouseout', event=>{
+    event.target.src = "pictures/slay_the_spire.jpg";
+});
+
+slay_the_spire.addEventListener('click', event=>{
+    window.location.href = "sites/games/slay_the_spire.html";
+})
