@@ -30,7 +30,6 @@
     body .middle_part{
         width: 100%;
         position: relative;
-        height: auto;
     }
 
     body .right_part{
@@ -65,6 +64,7 @@ header{
     background: rgb(0, 0, 0);
     border-radius: 0px 0px 10px 10px;
     box-shadow: rgb(194, 0, 0) 0px 1px 3px 2px;
+    z-index: 1;
 }
 
 header:hover{

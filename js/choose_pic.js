@@ -19,15 +19,24 @@ upper_menu.addEventListener('click', (event)=>{
     console.log(name);
 })
 
+window.onload = function(){
+    var hm2 = document.querySelector("#hm2");
+    var ultrakill = document.querySelector("#ultra_kill");
+    var valiant_hearts = document.querySelector("#valiant_hearts");
+    var slay_the_spire = document.querySelector("#slay_the_spire");
+    var germlins_inc = document.querySelector("#gremlins_inc");
+    var heart_stoen = document.querySelector("#heart_stone");
+}
 
 hm2.addEventListener('mouseover', event=>{
-    event.target.src = "pictures\\hm2.gif";
+    event.target.src = "pictures/hm2.gif";
 });
 
 hm2.addEventListener('mouseout', event=>{
-    event.target.src = "pictures\\hm2.png";
+    event.target.src = "pictures/hm2.png";
 });
 
 hm2.addEventListener('click', event=>{
-    window.location.href = "../hm2/hm2.html";
+    window.location.href = "sites/games/hm2.html";
 })
+
