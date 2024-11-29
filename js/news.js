@@ -18,3 +18,13 @@ upper_menu.addEventListener('click', (event)=>{
         window.location.href = "choose_pic.html";
     console.log(name);
 })
+
+window.onload = function(){
+    let all_texts = document.querySelectorAll(".description");
+
+    all_texts.forEach(element => {
+        element.addEventListener('click', function(){
+            window.location.href = "/sites/news/" + element.id + ".html";
+        })
+    });
+}

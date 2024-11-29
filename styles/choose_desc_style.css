@@ -53,6 +53,8 @@ img{
     position: sticky;
     max-width: 20vw;
     max-height: 20vw;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(204, 0, 0);
 }
 
 img:hover{
