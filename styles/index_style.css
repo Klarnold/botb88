@@ -154,7 +154,7 @@ body main{
 .middle_part{
     word-wrap: break-word;
     min-width: 77vw;
-    height: 100vh;
+    height: auto;
     width: 100px;
     background: radial-gradient(rgb(4, 39, 0), rgb(0, 0, 0));
 }
