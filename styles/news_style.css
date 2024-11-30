@@ -15,3 +15,7 @@
     color: black;
     background: radial-gradient(red, white);
 }
+
+.middle_part{
+    height: auto;
+}
