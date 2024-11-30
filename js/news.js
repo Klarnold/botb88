@@ -24,7 +24,7 @@ window.onload = function(){
 
     all_texts.forEach(element => {
         element.addEventListener('click', function(){
-            window.location.href = "/sites/news/" + element.id + ".html";
+            window.location.href = "sites/news/" + element.id + ".html";
         })
     });
 }
